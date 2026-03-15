@@ -8,7 +8,7 @@ buttons.forEach(function (button){
         console.log(e.target);// isse hume console ye bhi bta deta konsa button target kiye hai
     
      if(e.target.id=== 'grey'){
-   body.style.backgroundColor= e.target.id;
+       body.style.backgroundColor= e.target.id;
     }
     if(e.target.id=== 'white'){
         body.style.backgroundColor= e.target.id;
